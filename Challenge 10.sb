@@ -1,0 +1,12 @@
+GraphicsWindow.PenColor = "Blue"
+GraphicsWindow.BrushColor = "LightSkyBlue"
+GraphicsWindow.FillTriangle(30,30,80,80, 50, 100)
+Triangle = Shapes.Addtriangle(100, 100,100)
+Shapes.Animate(Triangle, 0, 340, 500)
+GraphicsWindow.PenColor = "Green"
+GraphicsWindow.DrawEllipse(50,50,30,40)
+GraphicsWindow.BrushColor = "Yellow"
+GraphicsWindow.FillEllipse(50,50,30,40)
+GraphicsWindow.PenColor = "Red"
+GraphicsWindow.FillRectangle(10,20,30,40)
+GraphicsWindow.BrushColor = "Yellow"

@@ -1,0 +1,26 @@
+GraphicsWindow.MouseDown = MouseClick
+GraphicsWindow.MouseMove = MouseDrag
+GraphicsWindow.MouseUp   = MouseUp
+Sub MouseClick
+  OrgX = GraphicsWindow.MouseX
+  OrgY = GraphicsWindow.MouseY
+EndSub
+Sub MouseDrag
+  x = GraphicsWindow.MouseX
+  y = GraphicsWindow.MouseY
+  If (Mouse.IsLeftButtonDown) then
+    GraphicsWindow.DrawLine(OrgX, OrgY, x, y)
+  Endif
+EndSub
+GraphicsWindow.Height = 300
+GraphicsWindow.Width = 300
+GraphicsWindow.Title = "Graphics Window"
+shape1 = Shapes.AddRectangle(100, 50)
+Shapes.Move(shape1, 100, 125)
+return = "Return"
+GraphicsWindow.KeyDown = keydown
+GraphicsWindow.KeyUp = keyup
+Sub MouseUp
+  GraphicsWindow.PenColor=GraphicsWindow.GetRandomColor()
+  GraphicsWindow.PenWidth=Math.GetRandomNumber(5)
+EndSub

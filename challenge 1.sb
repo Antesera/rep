@@ -1,0 +1,7 @@
+TextWindow.Title = (",")
+TextWindow.Write("Enter your name: ")
+name = TextWindow.Read()
+TextWindow.BackgroundColor = "Gray"
+TextWindow.ForegroundColor = "Red"
+TextWindow.WriteLine("Hello " + name + ".")
+Program.Delay(100)

@@ -1,0 +1,5 @@
+TextWindow.Write("Your name? ")
+name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name)
+TextWindow.CursorLeft = 15
+TextWindow.CursorTop = 14

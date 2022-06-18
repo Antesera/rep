@@ -1,0 +1,11 @@
+TextWindow.Write("Enter a number: ")
+x = TextWindow.ReadNumber()
+isPrime = "True"
+PrimeCheck()
+If (isPrime = "True") Then
+  TextWindow.WriteLine(x + " is a prime number")
+Else
+  TextWindow.WriteLine(x + " is not a prime number")
+   EndIf
+   EndSub
+   x = x+5 'Add 5 to x
