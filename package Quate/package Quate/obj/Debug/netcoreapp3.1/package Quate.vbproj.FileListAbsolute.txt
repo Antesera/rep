@@ -1,0 +1,14 @@
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\bin\Debug\netcoreapp3.1\package Quate.exe
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\bin\Debug\netcoreapp3.1\package Quate.deps.json
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\bin\Debug\netcoreapp3.1\package Quate.runtimeconfig.json
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\bin\Debug\netcoreapp3.1\package Quate.runtimeconfig.dev.json
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\bin\Debug\netcoreapp3.1\package Quate.dll
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\bin\Debug\netcoreapp3.1\package Quate.pdb
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\obj\Debug\netcoreapp3.1\package Quate.vbproj.AssemblyReference.cache
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\obj\Debug\netcoreapp3.1\package Quate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\obj\Debug\netcoreapp3.1\package Quate.AssemblyInfoInputs.cache
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\obj\Debug\netcoreapp3.1\package Quate.AssemblyInfo.vb
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\obj\Debug\netcoreapp3.1\package Quate.vbproj.CoreCompileInputs.cache
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\obj\Debug\netcoreapp3.1\package Quate.dll
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\obj\Debug\netcoreapp3.1\package Quate.pdb
+C:\Users\mushe\OneDrive\Word Document\OneDrive\Desktop\Enat\package Quate\package Quate\obj\Debug\netcoreapp3.1\package Quate.genruntimeconfig.cache
