@@ -1,0 +1,171 @@
+
+Myportfolio.html
+<!DOCTYPE html>
+<html>
+    
+    <!-- Head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Anteneh</title>
+        <link rel="shortcut icon" type="img/jpg" href="images/coding_icon.png">
+        <link rel="stylesheet" type="text/css" href="stylesheet/sample_portfolio.css">
+		<script type="text/javascript" src="JS/sample_portfolio.js"></script>
+    </head>
+
+    <!-- Body -->
+    <body class="Background">   
+
+        <!-- Navbar -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <!-- New section added -->
+            <a href="#Slideshow">Slideshow</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <!-- Onclick and ondblclick functions added to open and close the contact form -->
+            <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
+        </div>
+
+        <!-- Background video -->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="https://media.istockphoto.com/videos/closeup-man-using-laptop-video-id869587622" type="video/mp4">
+                <!-- Display message if video fails to run -->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!-- Video text -->
+        <div class="Video_Text">
+            <h1 class="white-text">Anteneh Teklemariam</h1>
+            <strong>
+                <p class="center">
+                    <q>The software developer students focuse his/her goal to sacrified much times in his/her life time write coding
+                        <br>On the way of  goal the first priority is practice and  write the codes to adopte the programming languages and codes.
+                        <br>and try to much times practices to  be decrease error  and He/she was going to his/her profession.
+                    </q>
+                    <br> -Anteneh Teklemariam<br>
+                    <br>
+                    My name is _Anteneh___. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br>Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!-- Slideshow section added -->
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="https://i.pinimg.com/originals/15/3b/3d/153b3d58159740cf39c7da24a273fb96.jpg" alt="">
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+                    <!-- Slide 2 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="https://media.istockphoto.com/photos/system-engineering-concept-engineers-working-in-the-office-gui-picture-id1271619512?k=20&m=1271619512&s=612x612&w=0&h=lIhA8JgI-mFHLPYtPj7WZJ9l6CJm10SQAofd17zrFrc=" alt=""> 
+                        <div class="text">I am a student of software developer and another profession computer Engineer,<br> trained in:<br>Roaming service,ZTE and Huawei core network)</div>
+                    </div>
+                    <!-- Slide 3 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtwjK2dbbhnIBv31rZqJ7Kfm9WNyKAGBKrPpStcDNq2jwnmnAybRJ602-CrmZ4O39SCck&usqp=CAU" alt="">
+                        <div class="text">the popular core network(circuit switching and packet switching</div>
+                    </div>
+                    <!-- Slide 4 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsL2ZO1JgElFFBHFx9M_Uvsz9HO59_89048w&usqp=CAU" alt=" ">
+                        <div class="text">Gateway Switching and soft-switching </div>
+                    </div>
+                    <!-- Slide 5 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="https://tse4.mm.bing.net/th?id=OIP.Tow8-W_aITdMidRe-QmwLAHaED&pid=Api&P=0" alt=""> 
+                        <div class="text">WCDMA and Broadband.</div>
+                    </div>
+                    <!-- Slide 6 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="https://media.istockphoto.com/photos/african-children-during-english-class-southern-ethiopia-east-africa-picture-id1353602607?s=612x612" alt="Replace with a picture of your choosing"> 
+                        <div class="text"><a class="white-text contact" onclick="openForm()">Contact me now!</a></div> 
+                    </div>
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span> 
+                </div>
+            </div>
+        </div>
+
+        <!-- About section -->
+        <div class="Row" id="About">
+            <!-- Left column -->
+            <div class="Column_2">
+                <img src="https://images.unsplash.com/photo-1623038455007-891466ff6016?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZXRoaW9waWF8ZW58MHx8MHx8&w=1000&q=80" alt="Replace with a picture of your choosing">
+            </div>
+            <!-- Right column -->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a student of software developer who loves to code! As a father of one, I enjoy time with my family and visiting Historical place also walking,watching football game additional I am fun of Barcelona club.Additionally I visite Retired 
+                    <br>center to satisfied my inside on my heart.
+                    <br>I am a graduate of <a href="https://www.microlinkcollege.com" target="_blank">Microlink information College</a>’s computer engineering to have much experiencese in Telecom Engineer as Implemented  new network and core network as backsides.
+                    <br>
+                    <br>I am a Computer Engineer and Sales representative and I would love to work with you on your project. <a onclick="openForm()" class="contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!-- GitHub section -->
+        <div class="Row" id="GitHub">
+            <!-- Left column -->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>You can view my engineering projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Antesera" target="_blank">Antesera Github</a></p>
+                </p>
+            </div>
+            <!-- Right column -->
+            <div class="Column_2">
+                <a href="https://github.com/Antesera" target="_blank"><img src="https://freepngimg.com/thumb/github/1-2-github-free-png-image.png"></a>
+            </div>
+        </div>
+
+        <!-- Contact form -->
+        <div id="Contact">
+           <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+           <div class="form-popup" id="myForm">
+                <form action="https://formspree.io/Anteneh Teklemariam" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+                    <h1>Contact</h1>
+                    <label for="name"><b>Name</b></label>
+                      <input type="text" placeholder="Type your name here" name="name" required>
+                    <label for="phone"><b>Phone</b></label>
+                      <input type="text" placeholder="Type your phone number here" name="phone">
+                    <label for="email"><b>Email</b></label>		
+                      <input type="text" placeholder="Type your email address here" name="email" required>
+                    <label for="message"><b>Message</b></label>
+                      <input type="text" placeholder="Type your message here" name="message">
+         
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                </form>
+           </div>
+        </div>
+        
+        <!-- Footer section -->
+        <footer>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p><br>
+        </footer>
+        <script src="JS/sample_portfolio.js"></script>
+    </body>
+</html>
